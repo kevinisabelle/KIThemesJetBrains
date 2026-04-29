@@ -1,0 +1,29 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="KI Themes icon">
+    <defs>
+        <linearGradient id="outer" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#06B6D4"/>
+            <stop offset="0.5" stop-color="#8B5CF6"/>
+            <stop offset="1" stop-color="#FB923C"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="10" y="10" width="108" height="108" rx="26" fill="url(#outer)"/>
+    <rect x="18" y="18" width="92" height="92" rx="20" fill="#0F172A"/>
+    <rect x="28" y="28" width="72" height="72" rx="12" fill="#020617"/>
+
+    <!-- Theme palette cards -->
+    <rect x="38" y="38" width="52" height="10" rx="5" fill="#22D3EE"/>
+    <rect x="38" y="54" width="42" height="10" rx="5" fill="#A855F7"/>
+    <rect x="38" y="70" width="32" height="10" rx="5" fill="#F97316"/>
+
+    <!-- KI -->
+    <text
+            x="38"
+            y="99"
+            font-family="JetBrains Mono, Inter, Arial, sans-serif"
+            font-size="24"
+            font-weight="900"
+            fill="#F8FAFC">KI</text>
+
+    <circle cx="91" cy="91" r="5" fill="#22C55E"/>
+</svg>

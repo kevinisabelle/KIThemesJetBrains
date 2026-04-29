@@ -1,0 +1,114 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>KIThemes</id>
+    <version>1.1.4</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+    <name>KI Themes</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://www.kevinisabelle.com">Kevin Isabelle</vendor>
+
+    <idea-version since-build="251"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+    <description><![CDATA[
+    KI Themes is a collection of 15 custom themes for JetBrains IDEs, designed to enhance the visual experience and provide a unique look and feel. With KI Themes, you can personalize your IDE with a variety of color schemes and styles that cater to different preferences and moods. Whether you prefer a dark, light, or vibrant theme, KI Themes offers options to suit your coding environment. Each theme is crafted with attention to detail, ensuring that it not only looks great but also maintains readability and usability. Transform your coding workspace with KI Themes and enjoy a more visually appealing and comfortable development experience.
+        ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+        Added new themes: Cybernetic, Bioluminescent Ocean, Unicorn, Holographic and Quantum. Each theme offers a unique color scheme and design to enhance your coding experience. Updated existing themes with improved color contrast and readability. Fixed minor bugs related to theme application and compatibility with the latest IDE versions. Enhanced performance when switching between themes. Updated plugin metadata and documentation for better user understanding.
+    ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider
+                id="a951b590-aa85-4ff3-b049-ef26c58455ce"
+                path="/theme/KIThemes.theme.json"/>
+        <bundledColorScheme id="KIThemes Cybernetic" path="/META-INF/KIThemesCybernetic"/>
+
+        <themeProvider
+                id="c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f"
+                path="/theme/KIThemesBioluminescent.theme.json"/>
+        <bundledColorScheme id="KIThemes Bioluminescent Ocean" path="/META-INF/KIThemesBioluminescent"/>
+
+        <themeProvider
+                id="d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a"
+                path="/theme/KIThemesUnicorn.theme.json"/>
+        <bundledColorScheme id="KIThemes Unicorn" path="/META-INF/KIThemesUnicorn"/>
+
+        <themeProvider
+                id="e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b"
+                path="/theme/KIThemesHolographic.theme.json"/>
+        <bundledColorScheme id="KIThemes Holographic" path="/META-INF/KIThemesHolographic"/>
+
+        <themeProvider
+                id="f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+                path="/theme/KIThemesQuantum.theme.json"/>
+        <bundledColorScheme id="KIThemes Quantum" path="/META-INF/KIThemesQuantum"/>
+
+        <themeProvider
+                id="a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d"
+                path="/theme/KIThemesCandyShop.theme.json"/>
+        <bundledColorScheme id="KIThemes Candy Shop" path="/META-INF/KIThemesCandyShop"/>
+
+        <themeProvider
+                id="b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+                path="/theme/KIThemesTropicalParadise.theme.json"/>
+        <bundledColorScheme id="KIThemes Tropical Paradise" path="/META-INF/KIThemesTropicalParadise"/>
+
+        <themeProvider
+                id="d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0a"
+                path="/theme/KIThemesTropicalParadiseLight.theme.json"/>
+        <bundledColorScheme id="KIThemes Tropical Paradise Light" path="/META-INF/KIThemesTropicalParadiseLight"/>
+        
+        <themeProvider
+                id="e6f7a8b9-c0d1-2e3f-4a5b-6c7d8e9f0a1b"
+                path="/theme/KIThemesRadioactive.theme.json"/>
+        <bundledColorScheme id="KIThemes Radioactive" path="/META-INF/KIThemesRadioactive"/>
+
+        <themeProvider
+                id="f7a8b9c0-d1e2-3f4a-5b6c-7d8e9f0a1b2c"
+                path="/theme/KIThemesRetroArcade.theme.json"/>
+        <bundledColorScheme id="KIThemes Retro Arcade" path="/META-INF/KIThemesRetroArcade"/>
+
+        <themeProvider
+                id="a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3d"
+                path="/theme/KIThemesMoltenLava.theme.json"/>
+        <bundledColorScheme id="KIThemes Molten Lava" path="/META-INF/KIThemesMoltenLava"/>
+
+        <themeProvider
+                id="b9c0d1e2-f3a4-5b6c-7d8e-9f0a1b2c3d4e"
+                path="/theme/KIThemesOcean.theme.json"/>
+        <bundledColorScheme id="KIThemes Ocean" path="/META-INF/KIThemesOcean"/>
+
+        <themeProvider
+                id="c0d1e2f3-a4b5-6c7d-8e9f-0a1b2c3d4e5f"
+                path="/theme/KIThemesSakura.theme.json"/>
+        <bundledColorScheme id="KIThemes Sakura" path="/META-INF/KIThemesSakura"/>
+
+        <themeProvider
+                id="d1e2f3a4-b5c6-7d8e-9f0a-1b2c3d4e5f60"
+                path="/theme/KIThemesAdventureRed.theme.json"/>
+        <bundledColorScheme id="KIThemes Adventure Red" path="/META-INF/KIThemesAdventureRed"/>
+
+        <themeProvider
+                id="e2f3a4b5-c6d7-8e9f-0a1b-2c3d4e5f6071"
+                path="/theme/KIThemesLavenderFields.theme.json"/>
+        <bundledColorScheme id="KIThemes Lavender Fields" path="/META-INF/KIThemesLavenderFields"/>
+
+        <themeProvider
+                id="f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f607182"
+                path="/theme/KIThemesCosmicHorror.theme.json"/>
+        <bundledColorScheme id="KIThemes Cosmic Horror" path="/META-INF/KIThemesCosmicHorror"/>
+    </extensions>
+</idea-plugin>
