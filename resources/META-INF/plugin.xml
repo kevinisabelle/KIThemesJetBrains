@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>KIThemes</id>
-    <version>1.1.4</version>
+    <version>1.1.5</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -17,7 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-    KI Themes is a collection of 15 custom themes for JetBrains IDEs, designed to enhance the visual experience and provide a unique look and feel. With KI Themes, you can personalize your IDE with a variety of color schemes and styles that cater to different preferences and moods. Whether you prefer a dark, light, or vibrant theme, KI Themes offers options to suit your coding environment. Each theme is crafted with attention to detail, ensuring that it not only looks great but also maintains readability and usability. Transform your coding workspace with KI Themes and enjoy a more visually appealing and comfortable development experience.
+    KI Themes is a collection of 30 custom themes for JetBrains IDEs, designed to enhance the visual experience and provide a unique look and feel. With KI Themes, you can personalize your IDE with a variety of color schemes and styles that cater to different preferences and moods. Whether you prefer a dark, light, or vibrant theme, KI Themes offers options to suit your coding environment. Each theme is crafted with attention to detail, ensuring that it not only looks great but also maintains readability and usability. Transform your coding workspace with KI Themes and enjoy a more visually appealing and comfortable development experience.
         ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
@@ -105,5 +105,80 @@
                 id="f3a4b5c6-d7e8-9f0a-1b2c-3d4e5f607182"
                 path="/theme/KIThemesCosmicHorror.theme.json"/>
         <bundledColorScheme id="KIThemes Cosmic Horror" path="/META-INF/KIThemesCosmicHorror"/>
+
+        <themeProvider
+                id="a4b5c6d7-e8f9-0a1b-2c3d-4e5f60718293"
+                path="/theme/KIThemesAlpineSnow.theme.json"/>
+        <bundledColorScheme id="KIThemes Alpine Snow" path="/META-INF/KIThemesAlpineSnow"/>
+
+        <themeProvider
+                id="b5c6d7e8-f9a0-1b2c-3d4e-5f6071829304"
+                path="/theme/KIThemesAurore.theme.json"/>
+        <bundledColorScheme id="KIThemes Aurore" path="/META-INF/KIThemesAurore"/>
+
+        <themeProvider
+                id="c6d7e8f9-a0b1-2c3d-4e5f-6071829304a5"
+                path="/theme/KIThemesAutumnFoliage.theme.json"/>
+        <bundledColorScheme id="KIThemes Autumn Foliage" path="/META-INF/KIThemesAutumnFoliage"/>
+
+        <themeProvider
+                id="d7e8f9a0-b1c2-3d4e-5f60-718293a4b5c6"
+                path="/theme/KIThemesForest.theme.json"/>
+        <bundledColorScheme id="KIThemes Forest" path="/META-INF/KIThemesForest"/>
+
+        <themeProvider
+                id="e8f9a0b1-c2d3-4e5f-6071-829304a5b6c7"
+                path="/theme/KIThemesMediterranean.theme.json"/>
+        <bundledColorScheme id="KIThemes Mediterranean" path="/META-INF/KIThemesMediterranean"/>
+
+        <themeProvider
+                id="f9a0b1c2-d3e4-5f60-7182-93a4b5c6d7e8"
+                path="/theme/KIThemesMidnightBlue.theme.json"/>
+        <bundledColorScheme id="KIThemes Midnight Blue" path="/META-INF/KIThemesMidnightBlue"/>
+
+        <themeProvider
+                id="a0b1c2d3-e4f5-6071-8293-a4b5c6d7e8f9"
+                path="/theme/KIThemesMinimalistMono.theme.json"/>
+        <bundledColorScheme id="KIThemes Minimalist Mono" path="/META-INF/KIThemesMinimalistMono"/>
+
+        <themeProvider
+                id="b1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6f"
+                path="/theme/KIThemesMoroccanSpice.theme.json"/>
+        <bundledColorScheme id="KIThemes Moroccan Spice" path="/META-INF/KIThemesMoroccanSpice"/>
+
+        <themeProvider
+                id="c2d3e4f5-a6b7-8c9d-0e1f-2a3b4c5d6e7f"
+                path="/theme/KIThemesRaveParty.theme.json"/>
+        <bundledColorScheme id="KIThemes Rave Party" path="/META-INF/KIThemesRaveParty"/>
+
+        <themeProvider
+                id="d3e4f5a6-b7c8-9d0e-1f2a-3b4c5d6e7f80"
+                path="/theme/KIThemesSaharaSunset.theme.json"/>
+        <bundledColorScheme id="KIThemes Sahara Sunset" path="/META-INF/KIThemesSaharaSunset"/>
+
+        <themeProvider
+                id="e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8091"
+                path="/theme/KIThemesSteampunk.theme.json"/>
+        <bundledColorScheme id="KIThemes Steampunk" path="/META-INF/KIThemesSteampunk"/>
+
+        <themeProvider
+                id="f5a6b7c8-d9e0-1f2a-3b4c-5d6e7f809102"
+                path="/theme/KIThemesSunsetOnMars.theme.json"/>
+        <bundledColorScheme id="KIThemes Sunset on Mars" path="/META-INF/KIThemesSunsetOnMars"/>
+
+        <themeProvider
+                id="a6b7c8d9-e0f1-2a3b-4c5d-6e7f80910213"
+                path="/theme/KIThemesVampireGothic.theme.json"/>
+        <bundledColorScheme id="KIThemes Vampire Gothic" path="/META-INF/KIThemesVampireGothic"/>
+
+        <themeProvider
+                id="b7c8d9e0-f1a2-3b4c-5d6e-7f8091021324"
+                path="/theme/KIThemesVintagePostcard.theme.json"/>
+        <bundledColorScheme id="KIThemes Vintage Postcard" path="/META-INF/KIThemesVintagePostcard"/>
+
+        <themeProvider
+                id="c8d9e0f1-a2b3-4c5d-6e7f-809102132435"
+                path="/theme/KIThemesWitchsBrew.theme.json"/>
+        <bundledColorScheme id="KIThemes Witch's Brew" path="/META-INF/KIThemesWitchsBrew"/>
     </extensions>
 </idea-plugin>
